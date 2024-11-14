@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.11.35219.272
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CollectionRenderSandbox", "CollectionRenderSandbox\CollectionRenderSandbox.csproj", "{FCBC803E-9A2F-4DB5-AD72-A7AC590F9ACC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FCBC803E-9A2F-4DB5-AD72-A7AC590F9ACC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FCBC803E-9A2F-4DB5-AD72-A7AC590F9ACC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FCBC803E-9A2F-4DB5-AD72-A7AC590F9ACC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FCBC803E-9A2F-4DB5-AD72-A7AC590F9ACC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {28E030D4-97A7-4521-B0A0-3A2E5811DBFE}
+	EndGlobalSection
+EndGlobal

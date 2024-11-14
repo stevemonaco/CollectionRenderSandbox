@@ -1,0 +1,30 @@
+<Window
+    x:Class="CollectionRenderSandbox.Views.MainWindow"
+    xmlns="https://github.com/avaloniaui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:c="using:CollectionRenderSandbox.Controls"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:vm="using:CollectionRenderSandbox.ViewModels"
+    Title="CollectionRenderSandbox"
+    d:DesignHeight="450"
+    d:DesignWidth="800"
+    x:DataType="vm:MainWindowViewModel"
+    Icon="/Assets/avalonia-logo.ico"
+    mc:Ignorable="d">
+
+    <Grid x:Name="grid" Background="Orange">
+        <TabControl>
+            <TabItem Header="Custom Rendered">
+                <ScrollViewer VerticalScrollBarVisibility="Visible">
+                    <c:TestDataGrid />
+                </ScrollViewer>
+            </TabItem>
+            <TabItem Header="ItemsControl">
+                <ScrollViewer VerticalScrollBarVisibility="Visible">
+                    <ItemsControl ItemsSource="{Binding Items}" />
+                </ScrollViewer>
+            </TabItem>
+        </TabControl>
+    </Grid>
+</Window>
